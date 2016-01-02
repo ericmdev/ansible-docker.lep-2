@@ -12,3 +12,9 @@ Clone repo:
     
     $ git clone <repo> ./ansible-docker
 
+### Installation
+
+Ansible Galaxy install requirements.
+
+    $ sh bin/install
+
