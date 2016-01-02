@@ -1,0 +1,4 @@
+---
+  - src: https://github.com/ericmdev/ansible-docker-compose.git
+    version: 1.2.1
+    name: docker-compose

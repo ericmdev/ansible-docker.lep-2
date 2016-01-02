@@ -1,0 +1,23 @@
+{
+  "nodes": {
+    "docker": { 
+      ":node": "Docker",
+      ":box": "box-cutter/centos64",
+      ":ip": "192.168.33.61",
+      ":host": "docker.server",
+      "ports": [
+        {
+          ":host": 2291,
+          ":guest": 22,
+          ":id": "ssh"
+        },
+        {
+          ":host": 8880,
+          ":guest": 80,
+          ":id": "docker-listen"
+        }
+      ],
+      ":memory": 512
+    }
+  }
+}

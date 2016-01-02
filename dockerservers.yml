@@ -1,0 +1,6 @@
+- hosts: dockerservers
+  gather_facts: yes
+  vars_files:
+    - group_vars/dockerservers.yml
+  roles:
+    - docker-compose
