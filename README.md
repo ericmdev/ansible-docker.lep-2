@@ -18,3 +18,8 @@ Ansible Galaxy install requirements.
 
     $ sh bin/install
 
+### Usage
+
+Vagrant up.
+
+    $ vagrant up
