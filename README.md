@@ -5,3 +5,10 @@
 ### Roles
 
 - docker-compose
+
+### Clone
+
+Clone repo:
+    
+    $ git clone <repo> ./ansible-docker
+
